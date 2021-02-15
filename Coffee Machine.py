@@ -1,3 +1,39 @@
+name ='''
+                          ad88    ad88
+                        d8"     d8"
+                        88      88
+ ,adPPYba,  ,adPPYba, MM88MMM MM88MMM ,adPPYba,  ,adPPYba,
+a8"     "" a8"     "8a  88      88   a8P_____88 a8P_____88
+8b         8b       d8  88      88   8PP""""""" 8PP"""""""
+"8a,   ,aa "8a,   ,a8"  88      88   "8b,   ,aa "8b,   ,aa
+ `"Ybbd8"'  `"YbbdP"'   88      88    `"Ybbd8"'  `"Ybbd8"' 
+ 
+ 
+                        (
+                          )     (
+                   ___...(-------)-....___
+               .-""       )    (          ""-.
+         .-'``'|-._             )         _.-|
+        /  .--.|   `""---...........---""`   |
+       /  /    |                             |
+       |  |    |                             |
+        \  \   |                             |
+         `\ `\ |                             |
+           `\ `|                             |
+           _/ /\                             /
+          (__/  \                           /
+       _..---""` \                         /`""---.._
+    .-'           \                       /          '-.
+   :               `-.__             __.-'              :
+   :                  ) ""---...---"" (                 :
+    '._               `"--...___...--"`              _.'
+  jgs \""--..__                              __..--""/
+       '._     """----.....______.....----"""     _.'
+          `""--..,,_____            _____,,..--""`
+                        `"""----"""` 
+ 
+'''
+
 MENU = {
     "espresso": {
         "ingredients": {
@@ -63,6 +99,8 @@ def calculate_coins(quarters, dimes, nickles, pennies):
 machine_on = True
 choice_made = False
 money = 0
+
+print(name)
 
 while machine_on:
     choice = input("What would you like? (espresso/latte/cappuccino): ").lower()
